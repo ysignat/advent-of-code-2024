@@ -11,6 +11,7 @@ fun main() {
     val day: AdventDay
     when (dayNumber) {
         1 -> day = Day1(dataFilePath)
+        2 -> day = Day2(dataFilePath)
 
         else -> {
             throw Error("No such day implemented")

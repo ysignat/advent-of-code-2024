@@ -42,7 +42,7 @@ class Day1(private val filePath: String) : AdventDay {
 
         val result = data.first.zip(data.second, Int::minus).map { abs(it) }.reduce(Int::plus)
 
-        print(result)
+        println(result)
     }
 
     override fun part2() {
@@ -50,6 +50,6 @@ class Day1(private val filePath: String) : AdventDay {
         val secondArrayValuesCounted = data.second.groupingBy { it }.eachCount()
         val result = this.readData().first.map { it * (secondArrayValuesCounted[it] ?: 0) }.reduce(Int::plus)
 
-        print(result)
+        println(result)
     }
 }
