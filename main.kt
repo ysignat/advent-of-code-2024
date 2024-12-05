@@ -12,6 +12,7 @@ fun main() {
         2 -> Day2(dataFilePath)
         3 -> Day3(dataFilePath)
         4 -> Day4(dataFilePath)
+        5 -> Day5(dataFilePath)
 
         else -> {
             throw Error("No such day implemented")
