@@ -13,6 +13,7 @@ fun main() {
         3 -> Day3(dataFilePath)
         4 -> Day4(dataFilePath)
         5 -> Day5(dataFilePath)
+        6 -> Day6(dataFilePath)
         7 -> Day7(dataFilePath)
 
         else -> {
